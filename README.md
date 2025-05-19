@@ -15,7 +15,12 @@ EDA_Titanic_Project/
 │   ├── survival_gender.png
 │   ├── survival_class.png
 │   ├── age_distribution.png
-│   └── correlation_heatmap.png
+│   ├── correlation_heatmap.png
+│   ├── survival_title.png
+│   ├── survival_family_size.png
+│   ├── survival_age_bin.png
+│   ├── survival_fare_bin.png
+│   └── feature_importance.png
 ├── Titanic_Dataset.py
 └── requirements.txt
 ```
@@ -41,6 +46,11 @@ EDA_Titanic_Project/
 - **Survival Count by Passenger Class:** Highlights survival decreasing from 1st to 3rd class.
 - **Age Distribution by Survival:** Provides insights into age demographics related to survival.
 - **Correlation Heatmap:** Illustrates numeric correlations between features clearly.
+- **Survival Count by Title:** Shows survival rates based on passenger titles.
+- **Survival Count by Family Size:** Displays how family size affects survival.
+- **Survival Count by Age Bin:** Breaks down survival rates by age groups.
+- **Survival Count by Fare Bin:** Shows survival rates by fare categories.
+- **Feature Importance:** Visualizes the importance of features in the machine learning model.
 
 ###  Technologies Used
 
@@ -48,6 +58,7 @@ EDA_Titanic_Project/
 - Pandas
 - Matplotlib
 - Seaborn
+- Scikit-learn
 
 ###  Instructions to Run Locally
 
